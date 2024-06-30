@@ -53,10 +53,10 @@ const Navbar = () => {
   return (
   <>
     <div className='nav-header'>
-   <div className='left'>
-   <img width={150} height={150} src='./logo.jpg'></img>
-   <p>JobPoint</p>
-   </div>
+   {/* <div className='left'> */}
+   {/* <img width={150} height={150} src='./logo.jpg'></img> */}
+   {/* <p>JobPoint</p> */}
+   {/* </div> */}
    <div className='right'>
     <p onClick={toAbout}>{t('about')}</p>
     <p onClick={toHowItWorks}>{t('jobs')}</p>
